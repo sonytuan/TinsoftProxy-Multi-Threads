@@ -17,7 +17,11 @@ myProxies.mySettings.limit_theads_use = 3; // max thread per IP
 myProxies.mySettings.min_get_timeout = 180; // min of IP timeout to use
 </code><br/>
 <code>
-   //... use for loop for adding multi keys </code><br/>
+     myProxies.addProxybyKey(myApiKey, 0); // input api_key and location, default 0
+</code><br/>
+<code>
+   //... use for loop for adding multi keys 
+</code><br/>
 <code>
    myProxies.Start(); //start auto get IP for all keys<br/>
 </code><br/><br/>
