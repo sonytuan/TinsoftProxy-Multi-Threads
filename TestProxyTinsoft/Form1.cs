@@ -21,6 +21,7 @@ namespace TestProxyTinsoft
         private void button1_Click(object sender, EventArgs e)
         {
             button1.Enabled = false;
+            Dictionary<int, string> allKeys = new Dictionary<int, string> { };
             string[] apiKeyLines = richTextBox1.Lines;
             
 
