@@ -6,7 +6,7 @@ How to use
 Creat a null Oject as starting Object<br/>
 <code>DynamicMultiProxies myProxies;</code><br/>
 
-In start function:<br/>
+In main start function:<br/>
 <code>
 myProxies = new DynamicMultiProxies(); 
 </code><br/>
@@ -31,5 +31,9 @@ In running thread:<br/>
  +When Thread complete:<br/>
  <code>
       myProxies.setThreadStop(proxy);<br/>
+  </code><br/><br/>
+  In main Stop function:<br/>
+   <code>
+      myProxies.Stop();
   </code><br/><br/>
  
