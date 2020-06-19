@@ -1,6 +1,7 @@
 # TinsoftProxy-Multi-Threads
-TinsoftProxy Multi Threads C#
-How to use
+TinsoftProxy Multi Threads C#<br/>
+How to use<br/>
+-Add TinsoftProxy.dll and Newtonsoft.Json.dll to your project<br/>
 -Dynamic Multi Proxies:
 
 Creat a null Oject as starting Object<br/>
